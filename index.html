@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdel Khader ABD EL KADER - Data Analyst Portfolio</title>
+    <title>Abdel Khader ABD EL KADER — Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
+
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">AK</h1>
+            <span class="logo">AK</span>
             <ul class="nav-links">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#projets">Projets</a></li>
@@ -21,20 +22,19 @@
         </div>
     </nav>
 
-    <!-- Section Accueil -->
     <section id="accueil" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Abdel Khader ABD EL KADER</h1>
-                <p class="hero-subtitle">Data Analyst | Python | SQL | Power BI</p>
+                <p class="hero-tag">Disponible pour un stage — Avril 2026</p>
+                <h1 class="hero-title">Abdel Khader<br><em>ABD EL KADER</em></h1>
+                <p class="hero-subtitle">Data Analyst &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Python &nbsp;·&nbsp; Power BI</p>
                 <p class="hero-description">
-                    Étudiant en Master 1 MQME à l'Université de Lille, passionné par l'analyse de données 
-                    et la datavisualisation. Je transforme les données en insights actionnables pour 
-                    améliorer la prise de décision.
+                    Étudiant en Master 1 MQME à l'Université de Lille. Je transforme les données 
+                    en insights actionnables pour améliorer la prise de décision en entreprise.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projets" class="btn btn-primary">Voir mes projets</a>
-                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
@@ -42,34 +42,47 @@
                         <span class="stat-label">Stages complétés</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">5+</span>
+                        <span class="stat-number">4</span>
                         <span class="stat-label">Projets data</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">15+</span>
-                        <span class="stat-label">Candidatures actives</span>
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Outils maîtrisés</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Projets -->
+    <div class="stack-bar">
+        <div class="container">
+            <div class="stack-inner">
+                <span class="stack-label">Stack</span>
+                <span class="stack-pill highlight">SQL</span>
+                <span class="stack-pill highlight">Python</span>
+                <span class="stack-pill highlight">Power BI</span>
+                <span class="stack-pill">R</span>
+                <span class="stack-pill">Tableau</span>
+                <span class="stack-pill">Excel</span>
+                <span class="stack-pill">Régression logistique</span>
+                <span class="stack-pill">ACP</span>
+            </div>
+        </div>
+    </div>
+
     <section id="projets" class="projects">
         <div class="container">
+            <p class="section-label">Réalisations</p>
             <h2 class="section-title">Mes Projets</h2>
-            <p class="section-subtitle">Découvrez mes réalisations en analyse de données</p>
-            
+            <p class="section-sub">Projets réalisés lors de mes stages et formations</p>
             <div class="projects-grid">
-                <!-- Projet 1 -->
+
                 <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-icon">📊</span>
-                        <h3>Dashboard RH Interactif</h3>
-                    </div>
+                    <div class="project-num">01</div>
+                    <h3>Dashboard RH Interactif</h3>
                     <p class="project-description">
                         Conception et développement d'un tableau de bord Power BI pour le suivi 
-                        des indicateurs RH au Centre National de Cardiologie
+                        des indicateurs RH au Centre National de Cardiologie.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Power BI</span>
@@ -77,21 +90,18 @@
                         <span class="tag">Excel</span>
                     </div>
                     <div class="project-results">
-                        <p>✅ 15 indicateurs clés créés</p>
-                        <p>✅ Mise à jour automatique des données</p>
-                        <p>✅ Utilisé quotidiennement par la direction</p>
+                        <div class="result-item">15 indicateurs clés créés</div>
+                        <div class="result-item">Mise à jour automatique des données</div>
+                        <div class="result-item">Utilisé quotidiennement par la direction</div>
                     </div>
                 </div>
 
-                <!-- Projet 2 -->
                 <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-icon">🔬</span>
-                        <h3>Analyse Facteurs de Risque Sepsis</h3>
-                    </div>
+                    <div class="project-num">02</div>
+                    <h3>Analyse Facteurs de Risque Sepsis</h3>
                     <p class="project-description">
                         Modélisation par régression logistique pour identifier les facteurs 
-                        de risque de sepsis post-chirurgie valvulaire
+                        de risque de sepsis post-chirurgie valvulaire.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
@@ -99,21 +109,18 @@
                         <span class="tag">Pandas</span>
                     </div>
                     <div class="project-results">
-                        <p>✅ 500+ patients analysés</p>
-                        <p>✅ 5 facteurs clés identifiés</p>
-                        <p>✅ Modèle avec 75% de précision</p>
+                        <div class="result-item">500+ patients analysés</div>
+                        <div class="result-item">5 facteurs clés identifiés</div>
+                        <div class="result-item">Modèle avec 75% de précision</div>
                     </div>
                 </div>
 
-                <!-- Projet 3 -->
                 <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-icon">📈</span>
-                        <h3>Analyse Démographique Rurale</h3>
-                    </div>
+                    <div class="project-num">03</div>
+                    <h3>Analyse Démographique Rurale</h3>
                     <p class="project-description">
                         Analyse des déterminants de la fréquentation scolaire en milieu rural 
-                        à l'Agence Nationale de la Statistique
+                        à l'Agence Nationale de la Statistique.
                     </p>
                     <div class="project-tags">
                         <span class="tag">R</span>
@@ -121,21 +128,18 @@
                         <span class="tag">Statistiques</span>
                     </div>
                     <div class="project-results">
-                        <p>✅ Nettoyage de données socio-économiques</p>
-                        <p>✅ Structuration de bases complexes</p>
-                        <p>✅ Insights pour politiques publiques</p>
+                        <div class="result-item">Nettoyage de données socio-économiques</div>
+                        <div class="result-item">Structuration de bases complexes</div>
+                        <div class="result-item">Insights pour politiques publiques</div>
                     </div>
                 </div>
 
-                <!-- Projet 4 -->
                 <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-icon">😷</span>
-                        <h3>Enquête Satisfaction Patients</h3>
-                    </div>
+                    <div class="project-num">04</div>
+                    <h3>Enquête Satisfaction Patients</h3>
                     <p class="project-description">
                         Réalisation et analyse d'une enquête de satisfaction auprès 
-                        des patients hospitalisés au CNC
+                        des patients hospitalisés au CNC.
                     </p>
                     <div class="project-tags">
                         <span class="tag">Analyse</span>
@@ -143,129 +147,86 @@
                         <span class="tag">Reporting</span>
                     </div>
                     <div class="project-results">
-                        <p>✅ 200+ patients interrogés</p>
-                        <p>✅ Analyse statistique complète</p>
-                        <p>✅ Recommandations actionnables</p>
+                        <div class="result-item">200+ patients interrogés</div>
+                        <div class="result-item">Analyse statistique complète</div>
+                        <div class="result-item">Recommandations actionnables</div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Section Compétences -->
     <section id="competences" class="skills">
         <div class="container">
+            <p class="section-label">Expertise</p>
             <h2 class="section-title">Compétences Techniques</h2>
-            <p class="section-subtitle">Mes outils et technologies maîtrisés</p>
-            
+            <p class="section-sub">Outils et technologies maîtrisés</p>
             <div class="skills-grid">
+
                 <div class="skill-category">
-                    <h3>💻 Programmation</h3>
+                    <h3>Programmation</h3>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Python</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
-                        </div>
+                        <div class="skill-info"><span>Python</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>SQL</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
-                        </div>
+                        <div class="skill-info"><span>SQL</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>R</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
-                        </div>
+                        <div class="skill-info"><span>R</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>📊 Visualisation</h3>
+                    <h3>Visualisation</h3>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Power BI</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
+                        <div class="skill-info"><span>Power BI</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Tableau</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
-                        </div>
+                        <div class="skill-info"><span>Tableau</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Excel</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
-                        </div>
+                        <div class="skill-info"><span>Excel</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3>📈 Analyse & Stats</h3>
+                    <h3>Analyse & Statistiques</h3>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Régression</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%"></div>
-                        </div>
+                        <div class="skill-info"><span>Régression logistique</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>ACP</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%"></div>
-                        </div>
+                        <div class="skill-info"><span>ACP</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
                     </div>
                     <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Machine Learning</span>
-                            <span>65%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 65%"></div>
-                        </div>
+                        <div class="skill-info"><span>Machine Learning</span><span>65%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width:65%"></div></div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Section Parcours -->
     <section id="parcours" class="experience">
         <div class="container">
-            <h2 class="section-title">Mon Parcours</h2>
-            <p class="section-subtitle">Formation et expériences professionnelles</p>
-            
+            <p class="section-label">Parcours</p>
+            <h2 class="section-title">Formation & Expériences</h2>
+            <p class="section-sub">Mon parcours académique et professionnel</p>
             <div class="timeline">
+
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Sept 2025 - Présent</span>
+                        <span class="timeline-date">Sept. 2025 — Présent</span>
                         <h3>Master 1 MQME</h3>
                         <p class="timeline-location">Université de Lille, France</p>
                         <p>Méthodes Quantitatives et Modélisation pour l'Entreprise</p>
@@ -275,13 +236,13 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Fév 2025 - Juin 2025</span>
+                        <span class="timeline-date">Fév. 2025 — Juin 2025</span>
                         <h3>Stagiaire en Analyse de Données</h3>
                         <p class="timeline-location">Centre National de Cardiologie, Mauritanie</p>
                         <ul>
-                            <li>Dashboard Power BI pour RH</li>
-                            <li>Analyse facteurs de risque sepsis (régression logistique)</li>
-                            <li>Enquête satisfaction patients</li>
+                            <li>Dashboard Power BI pour le service RH</li>
+                            <li>Analyse facteurs de risque sepsis — régression logistique</li>
+                            <li>Enquête de satisfaction patients</li>
                         </ul>
                     </div>
                 </div>
@@ -289,11 +250,11 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Avr 2024 - Juin 2024</span>
+                        <span class="timeline-date">Avr. 2024 — Juin 2024</span>
                         <h3>Stagiaire en Statistique et Analyse Démographique</h3>
                         <p class="timeline-location">Agence Nationale de la Statistique (ANSADE), Mauritanie</p>
                         <ul>
-                            <li>Analyse fréquentation scolaire milieu rural</li>
+                            <li>Analyse de la fréquentation scolaire en milieu rural</li>
                             <li>Nettoyage et structuration de données socio-économiques</li>
                             <li>Traitement sous R et Excel</li>
                         </ul>
@@ -303,53 +264,42 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Oct 2022 - Juil 2025</span>
+                        <span class="timeline-date">Oct. 2022 — Juil. 2025</span>
                         <h3>Licence Professionnelle en Statistique Appliquée</h3>
                         <p class="timeline-location">Institut Supérieur de la Statistique (ISS), Mauritanie</p>
-                        <p>Formation complète en statistiques, probabilités et analyse de données</p>
+                        <p>Formation en statistiques, probabilités et analyse de données</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Section Contact -->
     <section id="contact" class="contact">
         <div class="container">
+            <p class="section-label">Contact</p>
             <h2 class="section-title">Me Contacter</h2>
-            <p class="section-subtitle">Intéressé par mon profil ? N'hésitez pas à me contacter !</p>
-            
+            <p class="section-sub">Disponible pour un stage à partir d'avril 2026</p>
             <div class="contact-grid">
+
                 <div class="contact-info">
                     <div class="contact-item">
-                        <span class="contact-icon">📧</span>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:abdelkhaderabdou04@gmail.com">abdelkhaderabdou04@gmail.com</a>
-                        </div>
+                        <div class="contact-item-label">Email</div>
+                        <a href="mailto:abdelkhaderabdou04@gmail.com">abdelkhaderabdou04@gmail.com</a>
                     </div>
                     <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <div>
-                            <h4>Téléphone</h4>
-                            <a href="tel:+33759285602">+33 7 59 28 56 02</a>
-                        </div>
+                        <div class="contact-item-label">Téléphone</div>
+                        <a href="tel:+33759285602">+33 7 59 28 56 02</a>
                     </div>
                     <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <div>
-                            <h4>Localisation</h4>
-                            <p>Lille, France</p>
-                        </div>
+                        <div class="contact-item-label">Localisation</div>
+                        <span>Lille, France</span>
                     </div>
                     <div class="contact-item">
-                        <span class="contact-icon">🔗</span>
-                        <div>
-                            <h4>Réseaux</h4>
-                            <div class="social-links">
-                                <a href="https://linkedin.com/in/abdel-khader" target="_blank" class="social-link">LinkedIn</a>
-                                <a href="https://github.com/abdelkhader" target="_blank" class="social-link">GitHub</a>
-                            </div>
+                        <div class="contact-item-label">Réseaux</div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/abdel-khader-abd-el-kader-8896a4388/" target="_blank" class="social-link">LinkedIn</a>
+                            <a href="https://github.com/abdelkhader" target="_blank" class="social-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -357,22 +307,21 @@
                 <div class="contact-cta">
                     <h3>Recherche de stage</h3>
                     <p>
-                        Je recherche activement un stage en analyse de données 
-                        pour une durée de 2 mois à partir d'avril 2026.
+                        Je recherche un stage en analyse de données de 2 mois 
+                        à partir d'avril 2026, en région Lille ou Paris.
                     </p>
-                    <a href="CV_Abdel_Khader_2026.pdf" download class="btn btn-primary">
-                        📄 Télécharger mon CV
+                    <a href="CV_Abdel_Khader_2026.pdf" download class="btn btn-white">
+                        Télécharger mon CV
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Abdel Khader ABD EL KADER - Data Analyst Portfolio</p>
-            <p>Créé avec passion pour la data 📊</p>
+            <p>Abdel Khader ABD EL KADER &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Lille, France &nbsp;·&nbsp; 2026</p>
         </div>
     </footer>
 
